@@ -47,8 +47,6 @@ Create the basis of application
     
      The user gets the opportunity to enter information about a new student and that data is then saved in the database.
 
-Here, a simple case sentence is sufficient and the user enters a number to navigate to a certain function.
-
 
 - [ ] When a function has been executed, the user must be able to click enter and return to the main menu again.
 - [ ] A simple case sentence is sufficient and the user enters a number to navigate to a certain function.
