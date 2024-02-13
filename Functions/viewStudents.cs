@@ -1,5 +1,7 @@
 ﻿using System;
-using AcademyManagementApp.Data;
+using System.Collections.Generic;
+using System.Data.SqlClient;
+
 namespace AcademyManagementApp.Functions
 {
 	public class viewStudents

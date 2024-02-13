@@ -1,10 +1,15 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Data.SqlClient;
+
 namespace AcademyManagementApp.Functions
 {
 	public class startAcademyApp
 	{
 		public static void startApp()
 		{
+
+
             while (true)
             {
                 while (true)
@@ -54,8 +59,9 @@ namespace AcademyManagementApp.Functions
                     }
 
                     Console.WriteLine("Press Enter to return to the main menu.");
-                Console.ReadLine();
-                Console.Clear();
+                    Console.ReadLine();
+                    Console.Clear();
+                }
             }
         }
 	}
