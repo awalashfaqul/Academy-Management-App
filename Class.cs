@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Data.SqlClient;
 
-namespace AcademyManagementApp.Models
+namespace AcademyManagementApp
 {
     public class Class
     {

@@ -2,14 +2,15 @@
 using System.Collections.Generic;
 using System.Data.SqlClient;
 
-namespace AcademyManagementApp.Models
+namespace AcademyManagementApp
 {
     public class Grade
     {
         public int GradeID { get; set; }
-        public int StudentID { get; set; }
-        public int CourseID { get; set; }
+        public string StudentID { get; set; }
+        public string CourseID { get; set; }
         public int GradeValue { get; set; }
+        public string graDe { get; set; }
     }
 }
 

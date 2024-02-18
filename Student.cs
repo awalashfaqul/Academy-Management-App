@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Data.SqlClient;
 
-namespace AcademyManagementApp.Models
+namespace AcademyManagementApp
 {
     public class Student
     {
@@ -14,4 +14,5 @@ namespace AcademyManagementApp.Models
         public int CourseID { get; set; }
     }
 }
+
 
